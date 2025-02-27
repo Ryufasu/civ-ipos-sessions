@@ -1,5 +1,5 @@
-def greeter(name):
-    return f" Hello {name}"
+from greeter import greet
 
 
-print(greeter('John'))
+name = input("What is your name? ")
+print(greet(name))
